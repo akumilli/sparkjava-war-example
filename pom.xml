@@ -9,7 +9,13 @@
 	<version>1.0</version>
 	<packaging>war</packaging>
 
-	<dependencies>
+	<property
+	<sonar.host.url>https://172.31.0.219:9000/</sonar.host.url>
+	<sonar.login>admin</sonar.login>
+	<sonar.password>admin</sonar.password>
+	</property>
+	
+		<dependencies>
 		<dependency>
 			<groupId>com.sparkjava</groupId>
 			<artifactId>spark-core</artifactId>
